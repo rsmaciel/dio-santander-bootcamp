@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+div img {
+    display: block;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+footer {
+    background-color: #122A57;
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    font-size: 11px;
+    font-weight: 100;
+
+}
+
+header {
+    background-color: #122A57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+}
+
+header .list-items {
+    display: flex;
+    width: 100%;
+    max-width: 260px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-items li a {
+    color: #FFF;
+    font-weight: 600;
+}
+
+header .menu {
+    justify-content: space-between;
+}
+
+.apresentacao {
+    height: 50vh;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.apresentacao .texto-apresentacao {
+    min-height: 200px;
+    /* border: 1px solid black; */
+    align-items: center;
+    max-width: 450px;
+}
+
+.texto-apresentacao p {
+    margin-bottom: 15px;
+}
+
+.texto-apresentacao h1 {
+    color: #122A57;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+.texto-apresentacao a {
+    background-color: #122A57;
+    color: #FFF;
+    text-align: center;
+    border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#quem-somos {
+    height: 50vh;
+    flex-direction: row-reverse;
+    align-items: center;
+    /* margin: auto; */
+    justify-content: space-evenly;
+}
+
+#quem-somos img {
+    max-width: 450px;
+}
+
+#quem-somos h2 {
+    font-size: 28px;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 40px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122A57;
+    position: relative;
+}
+
+#quem-somos p {
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.quem-somos {
+    width: 50%;
+}
+
+
+.container-servicos {
+    background-color: #122A57;
+    width: 100%;
+}
+
+.list-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#servicos h2 {
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+
+.item-servico {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.item-servico a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #122A57;
+}
+
+.item-servico p {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#planos {
+    flex-direction: column;
+    min-height: 60vh;
+}
+
+.list-planos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.item-plano {
+    flex-direction: column;
+    flex: 1;
+    border: 5px solid #122A57;
+    margin: 5px;
+    max-width: 200px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    align-content: center;
+    justify-content: center;
+}
+
+.item-plano a {
+    text-decoration: none;
+    background-color: #122A57;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: 500;
+    color: white;
+    width: 140px;
+}
+
+.item-plano h3 {
+    margin-bottom: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-plano h3::after {
+    content: "";
+    width: 80%;
+    margin: auto;
+    height: 3px;
+    margin-top: 20px;
+    background-color: #122A57;
+
+}
+
+.bloco {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+#planos h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #122A57;
+    width: 100%;
+}

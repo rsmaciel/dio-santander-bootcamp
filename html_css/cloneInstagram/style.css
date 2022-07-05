@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset{
+    border: 0;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 400px;
+    max-width: 800px;
+    height: 85vh;
+}
+
+.ig-cel{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+}
+
+.ig-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 600px;
+}
+
+.cel{
+    height: 105%;
+    }
+
+.box-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 75%;
+    height: 60%;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;    
+}
+
+.logo-ig{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.logo-ig img{
+    width: 50%;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-login .formulario .input{
+    height: 30px;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+    width: 22em;
+    font-weight: 400;
+    border-radius: 2px;
+    color: rgba(142, 142, 142, 1);
+    font-size: 10px;
+    padding-left: 8px;
+    margin-bottom: 7px;
+}
+
+#botao{
+    margin-top: 13px;
+    font-weight: bolder;
+    height: 30px;
+    border: 0;
+    background-color: rgba(178, 223, 252, 1);
+    width: 21em;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 10.5px;
+}
+
+.separador{
+    display: flex;
+    color: rgba(142, 142, 142, 1);
+    width: 100%;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.separador span{
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.separador::before{
+    content: '';
+    height: 1px;
+    background-color: #dbdbdb;
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 37px;
+}
+.separador::after{
+    content: '';
+    height: 1px;
+    background-color: #dbdbdb;
+    flex: 1;
+    margin-right: 43px;
+    margin-left: 20px;
+}
+
+.login-fb span{
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(43,69,141);
+    align-items: center;
+}
+
+.login-fb img{
+    margin-right: 3px;
+}
+.recuperar{
+    margin-bottom: 10px;
+}
+.recuperar a{
+    font-size: 11px;
+    font-weight: 400;
+    color: #00376b;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 10%;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+}
+
+.cadastro span{
+    font-size: 13px;
+}
+.cadastro span a{
+    font-weight: 600;
+    color: #0095f6;
+    font-size: 13px;
+}
+
+.download{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 15%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.download p{
+    font-size: 13px;
+}
+.lojas{
+    display: flex;
+}
+
+.lojas img{
+    width: 130px;
+    margin: 5px;
+}
+
+.rodape{
+    display: flex;
+    max-width: 910px;
+    width: 100%;
+    height: 5vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rodape .link a{
+    font-weight: 400;
+    font-size: 10.5px;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #8e8e8e;
+}
+
+#idioma{
+    font-size: 10.5px;
+    border: 0;
+    color: #8e8e8e;
+    margin-right: 5px;
+    font-weight: 300;
+}
+
+.rights{
+    font-size: 10.5px;
+    color: #8e8e8e;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+@media (max-width: 750px) {
+    .ig-cel{
+        display: none;
+    }
+}
+
