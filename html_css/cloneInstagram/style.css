@@ -134,14 +134,14 @@ fieldset{
     background-color: #dbdbdb;
     flex: 1;
     margin-right: 20px;
-    margin-left: 37px;
+    margin-left: 40px;
 }
 .separador::after{
     content: '';
     height: 1px;
     background-color: #dbdbdb;
     flex: 1;
-    margin-right: 43px;
+    margin-right: 40px;
     margin-left: 20px;
 }
 
